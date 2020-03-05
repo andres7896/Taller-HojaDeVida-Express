@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contact.css">
+    <title>Hoja de Vida</title>
+</head>
+<body>
+    <div class="main">
+        <div class="datos">
+            <h1>Contacto</h1>
+            <form action="/mensaje" method="GET">
+                <label class="nombre"> Nombre </label>
+                <br>
+                <input type="text" name="nombre" id="nombre" class="nombreInput" placeholder="Nombre o Empresa">
+                <br>
+                <label class="mensaje">Mensaje </label>
+                <br>
+                <textarea name="mensaje" id="mensaje" placeholder="Escribe un Mensaje"></textarea>
+                <br>
+                <button name="enviar" id="enviar" value="Enviar">Enviar</button>
+            </form>
+        </div>
+        <div class="menu">
+            <a href="/">Inicio</a>
+            <a href="/perfil">Perfil Profesional</a>
+            <a href="/estudios">Estudios</a>
+            <a href="/experiencias">Experiencia</a>
+            <a href="/contacto">Contacto</a>
+        </div>
+    </div>
+</body>
+</html>

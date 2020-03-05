@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(233, 233, 233);
+}
+
+.main{
+    background-color: #002340;
+    color: white;
+    width: 100%;
+    max-width: 1100px;
+    border-radius: 6px;
+    height: 540px;
+    overflow: auto;
+}
+
+.cabecera{
+    display: flex;
+}
+
+.cabecera img{
+    max-width: 300px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.datos{
+    margin: 10px 10px 15px 30px;
+    width: 62%;
+    height: 100%;
+}
+
+.datos h1, .datos h2, .datos h3, .datos p{
+    margin: 0;
+}
+
+.datos h1, .datos h2, .datos h3{
+    padding: 15px 0 0 0;
+}
+
+
+.redes{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 15px;
+}
+
+.redes img{
+    max-width: 50px;
+    margin: 0;
+    padding-right: 15px;
+}
+
+.menu{
+    width: 100%;
+    max-width: 1060px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px 15px 10px;
+    margin-left: 15px;
+    border-bottom: 1px solid white;
+}
+
+.menu a:hover{
+    border-bottom: 1px solid yellow;
+}
+
+p{
+    text-align: justify;
+}
